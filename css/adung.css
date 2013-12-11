@@ -39,6 +39,10 @@ a, a:hover {
     float: left;
 }
 
+.pull-right {
+    float: right;
+}
+
 /* Header */
 #header {
     height: 90px;
@@ -199,11 +203,12 @@ a, a:hover {
 /* Footer */
 #footer {
     background-color: #ff9900;
+    color: #512f13;
     height: 165px;
     padding: 10px;
 }
 
-.footer-img {
+#footer .footer-img {
     border: 1px solid #000;
     -moz-border-radius: 16px;
     -ms-border-radius: 16px;
@@ -215,3 +220,164 @@ a, a:hover {
     max-width: 100%;
 }
 
+#footer address {
+    font-style: normal;
+}
+
+#footer .address-title {
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+#footer p {
+    margin: 0 0 5px 0;
+}
+
+/* Product */
+
+.product {
+    background: url(../img/product-bg-bottom.png) no-repeat left bottom, url(../img/product-bg.png) no-repeat 0 0;
+    background-color: #cfc39d;
+    -ms-background-size: auto auto, 100% 100%;
+    -moz-background-size: auto auto, 100% 100%;
+    -o-background-size: auto auto, 100% 100%;
+    -webkit-background-size: auto auto, 100% 100%;
+    background-size: auto auto, 100% 100%;
+    color: #553014;
+    overflow: hidden;
+    padding: 25px 35px 40px 35px;
+}
+
+.product .intro {
+    margin-right: 15px;
+    width: 315px;
+}
+
+.product .intro p {
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+.product .pro-content {
+    width: 535px;
+}
+
+.pro-content .pro-cate-title {
+    font-size: 1.35em;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+.product .pro-content .pro-list {
+    display: block;
+}
+
+.product .pro-content .pro-list li {
+    background-color: #fef2e3;
+    border: 1px solid #a9916f;
+    display: inline-block;
+    margin: 0 20px 15px 0;
+    min-height: 133px;
+    padding: 5px;
+    position: relative;
+    width: 143px;
+}
+
+.product .pro-content .pro-list li:last-child {
+    margin-right: 0;
+}
+
+.product .pro-content .pro-name {
+    font-size: 0.95em;
+    height: 36px;
+    margin: 5px 0;
+    padding: 0 5px;
+    text-transform: capitalize;
+}
+
+.product .pro-content .pro-link {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.product .pro-content .pro-img {
+    display: block;
+    max-height: 100px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.product .pro-content .pro-info {
+    font-size: 0.85em;
+    margin: 0 0 5px 0;
+    padding: 0 5px;
+}
+
+.pro-weight {
+
+}
+
+.pro-weight:before {
+    content: "Khối lượng: ";
+    font-weight: normal;
+}
+
+.pro-weight.gam:after {
+    content: " G";
+    font-weight: normal;
+}
+
+.pro-price {
+    color: red;
+}
+
+.pro-price:before {
+    color: #553014;
+    content: "Giá: ";
+    font-weight: normal;
+}
+
+.vnd:after {
+    content: " VNĐ";
+    font-weight: normal;
+}
+
+/* Product Detail */
+
+.product-detail {
+    background: url(../img/product-bg.png) no-repeat 0 0;
+    padding: 25px 25px 40px 25px;
+}
+
+.product-detail .pro-detail-img-container {
+    margin-right: 20px;
+    width: 500px;
+}
+
+.product-detail .pro-detail-img {
+    display: block;
+    max-width: 100%;
+}
+
+.product-detail .pro-detail-desc {
+    width: 360px;
+}
+
+.product-detail .pro-price:before, .product-detail .pro-weight:before {
+    display: inline-block;
+    font-weight: bold;
+    width: 95px;
+}
+
+.product-detail .pro-price:after, .product-detail .pro-weight:after {
+    font-weight: bold;
+}
+
+.product-detail .pro-price, .product-detail .pro-weight {
+    color: #553014;
+    font-weight: bold;
+}
