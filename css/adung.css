@@ -108,7 +108,13 @@ a, a:hover {
 
 /* Main */
 #main {
-    background: url(../img/main-border.jpg) repeat-x 0 0 padding-box, url(../img/main-border.jpg) repeat-x 0 100% padding-box;
+    background: url(../img/main-border.jpg) repeat-x 0 0 padding-box, url(../img/main-border.jpg) repeat-x 0 100% padding-box, url(../img/product-bg.png) no-repeat 0 0;
+    -ms-background-size: auto auto, auto auto, 100% 100%;
+    -moz-background-size: auto auto, auto auto, 100% 100%;
+    -o-background-size: auto auto, auto auto, 100% 100%;
+    -webkit-background-size: auto auto, auto auto, 100% 100%;
+    background-size: auto auto, auto auto, 100% 100%;
+    color: #553014;
     padding: 3px 0;
 }
 
@@ -236,14 +242,6 @@ a, a:hover {
 /* Product */
 
 .product {
-    background: url(../img/product-bg-bottom.png) no-repeat left bottom, url(../img/product-bg.png) no-repeat 0 0;
-    background-color: #cfc39d;
-    -ms-background-size: auto auto, 100% 100%;
-    -moz-background-size: auto auto, 100% 100%;
-    -o-background-size: auto auto, 100% 100%;
-    -webkit-background-size: auto auto, 100% 100%;
-    background-size: auto auto, 100% 100%;
-    color: #553014;
     overflow: hidden;
     padding: 25px 35px 40px 35px;
 }
@@ -259,7 +257,7 @@ a, a:hover {
 }
 
 .product .pro-content {
-    margin-top: 75px;
+    margin-top: 145px;
     width: 535px;
 }
 
@@ -350,7 +348,6 @@ a, a:hover {
 /* Product Detail */
 
 .product-detail {
-    background: url(../img/product-bg.png) no-repeat 0 0;
     padding: 25px 25px 40px 25px;
 }
 
