@@ -14,23 +14,36 @@
 <body>
     <header id="header">
         <div class="container">
-                <h1 class="logo-wrap pull-left"><img class="logo" src="img/logo.png" alt="adung logo" /></h1>
-                <nav id="nav" class="pull-left">
-                    <ul class="navbar">
-                        <li><a class="nav-item myriad_pro_bold_condensed" href="#">Trang chủ</a></li>
-                        <li><a class="nav-item myriad_pro_bold_condensed" href="#">sản phẩm</a></li>
-                        <li><a class="nav-item myriad_pro_bold_condensed" href="#">giới thiệu</a></li>
-                        <li><a class="nav-item myriad_pro_bold_condensed" href="#">liên hệ</a></li>
-                    </ul>
-                    <span class="phone">0909090909</span>
-                </nav>
+            <h1 class="logo-wrap pull-left">
+                <img class="logo" src="img/logo.png" alt="adung logo" /></h1>
+            <nav id="nav" class="pull-left">
+                <ul class="navbar">
+                    <li><a class="nav-item myriad_pro_bold_condensed" href="#">Trang chủ</a></li>
+                    <li><a class="nav-item myriad_pro_bold_condensed" href="#">sản phẩm</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a class="submenu-item" href="#">Bào Ngư</a></li>
+                            <li><a class="submenu-item" href="#">Nữ trang</a></li>
+                            <li><a class="submenu-item" href="#">Vi cá</a></li>
+                            <li><a class="submenu-item" href="#">Rượu vang</a></li>
+                            <li><a class="submenu-item" href="#">Yến sào</a></li>
+                            <li><a class="submenu-item" href="#">Sản phẩm khác</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-item myriad_pro_bold_condensed" href="#">giới thiệu</a></li>
+                    <li><a class="nav-item myriad_pro_bold_condensed" href="#">liên hệ</a></li>
+                </ul>
+                <span class="phone">0909090909</span>
+            </nav>
+            <a class="btn-lang vn" href="#">ngôn ngữ trung quốc</a>
+            <a class="btn-lang cn" href="#">ngôn ngữ việt nam</a>
         </div>
     </header>
     <div id="main">
         <div class="container">
             <section class="product">
                 <div class="intro pull-left">
-                    <h1 class="pro-intro-title"><img class="pro-img-intro" src="img/pro-title.png" alt=""/></h1>
+                    <h1 class="pro-intro-title">
+                        <img class="pro-img-intro" src="img/pro-title.png" alt="" /></h1>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
                 </div>
                 <div class="pro-content pull-right">
@@ -101,13 +114,13 @@
                     </ul>
                     <div class="pagination-holder">
                         <ul class="pagination">
-                          <li class="disabled"><a href="#">&laquo;</a></li>
-                          <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-                          <li><a href="#">2</a></li>
-                          <li><a href="#">3</a></li>
-                          <li><a href="#">4</a></li>
-                          <li><a href="#">5</a></li>
-                          <li><a href="#">&raquo;</a></li>
+                            <li class="disabled"><a href="#">&laquo;</a></li>
+                            <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">&raquo;</a></li>
                         </ul>
                     </div>
                 </div>
@@ -122,7 +135,7 @@
                 <p>1 Lê Duẩn, Phường 1, Quận 1, thành phố Hồ Chí Minh</p>
             </address>
         </div>
-     </footer>
+    </footer>
     <script src="js/vendor/jquery-1.10.2.min.js"></script>
     <script src="js/transition.js"></script>
     <script src="js/carousel.js"></script>
@@ -135,7 +148,7 @@
             e = o.createElement(i); r = o.getElementsByTagName(i)[0];
             e.src = '//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e, r)
-        } (window, document, 'script', 'ga'));
+        }(window, document, 'script', 'ga'));
         ga('create', 'UA-XXXXX-X'); ga('send', 'pageview');
     </script>
 </body>
