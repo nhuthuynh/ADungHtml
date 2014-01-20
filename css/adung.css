@@ -51,23 +51,24 @@ a, a:hover {
 .btn-lang {
     background-repeat: no-repeat;
     background-position: 0 0;
-    display: inline-block;
+    display: block;
     height: 25px;
-    margin-top: 25px;
     overflow: hidden;
-    position: relative;
+    position: absolute;
     text-indent: 100%;
+    top: 60px;
     white-space: nowrap;
     width: 25px;
 }
 
     .btn-lang.vn {
         background-image: url(../img/vn.png);
-        margin: 25px 5px 0 10px;
+        left: 790px;
     }
 
     .btn-lang.cn {
         background-image: url(../img/cn.png);
+        left: 825px;
     }
 
 #nav {
@@ -114,6 +115,7 @@ a, a:hover {
 
     .navbar li:hover .dropdown-menu, .navbar li:focus .dropdown-menu, .navbar li:active .dropdown-menu {
         display: block;
+        top: 34px;
     }
 
 .dropdown-menu {
