@@ -20,8 +20,15 @@ a, a:hover {
     text-decoration: none;
 }
 
+#footer .container {
+	min-height: inherit;
+	max-height: inherit;
+}
+
 .container {
     margin: 0 auto;
+	min-height: 720px;
+	max-height: 720px;
     position: relative;
     width: 960px;
 }
@@ -199,7 +206,7 @@ a, a:hover {
 }
 
 .carousel, .carousel-inner {
-    height: 460px;
+    height: 720px;
     position: relative;
 }
 
@@ -290,8 +297,7 @@ a, a:hover {
 #footer {
     background-color: #ff9900;
     color: #512f13;
-    height: 165px;
-    padding: 10px;
+    padding: 10px 10px 30px 10px;
 }
 
     #footer .footer-img {
